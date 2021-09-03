@@ -1,0 +1,34 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body {
+  background-color: rgb(24, 20, 41);
+  color: white;
+  text-align: center;
+}
+
+h1 {
+  margin: 20% 10%;
+}
+
+/* barrinha do cursor */
+h1::after {
+  content: '|';
+  margin-left: 5px;
+  opacity: 1;
+  animation: piscar 0.7s infinite;
+}
+
+@keyframes piscar {
+  0%, 100%{
+    opacity: 1;
+  }
+  50%{
+    opacity: 0;
+  }
+}
