@@ -6,7 +6,7 @@ A responsive sidebar menu in HTML, CSS and JavaScript.
 
 <br />
 
-Menu when its "hide
+Menu when it's "hidden"
 <br />
 <img src="assets/projectPic1.jpg" alt="sidebar menu image" style="width:1000px;">
 
@@ -15,4 +15,5 @@ Menu when you click on the icon
 <img src="assets/projectPic2.jpg" alt="sidebar menu image" style="width:1000px;">
 
 <br />
+
 > NOTES FOR ME: transitions that make clicks smooth
